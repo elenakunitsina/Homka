@@ -1,0 +1,49 @@
+/* Для элементов списка, с помощью псевдокласса nth-child, сделать 3 чередующихся
+фона #88292F, #5DB7DE и #0D5D56. Цвет шрифта должен быть #0E1116. */
+                                                                               
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list {
+    /* border: 2px solid #212121; */
+    padding: 5px;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .list li {
+    padding: 4px 0;
+    font-size: 18px;
+    color: #0E1116;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .list li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  
+li:nth-child(1n+1) {  /* каждый первый фон начиная с первго */
+    /* color: blue;  */  /* использова для теста чередование шрифта */
+    background: #88292F;
+}
+
+li:nth-child(3n+2) {  /*+3 начиная со 2го* фона/
+    /* color: green;  */
+    background: #5DB7DE;
+}
+
+li:nth-child(3n) {  /*каждый ктретий фон*/
+    /* color: red;  */
+    background: #0D5D56;
+}
+  .container {
+    max-width: 480px;
+    margin: auto;
+    padding: 10px;
+    /* background: #fc0; Меняем цвет фона всехстрок таблицы сразу */
+}

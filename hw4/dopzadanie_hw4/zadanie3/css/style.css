@@ -1,0 +1,72 @@
+/* <!-- Задание 3
+Создать список из девяти элементов.
+C помощью псевдоэлемента ::before поставить перед каждой ссылкой символ стрелки. --> */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 480px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .list {
+    text-align: center;
+    list-style: none; /*убираю точки возле списка*/
+    font-family: Roboto, sans-serif;
+  }
+  
+  .list li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .list a { /*делаю шрифт все буквы большие*/
+    display: inline-block;
+    vertical-align: middle;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  
+  li::before  {  /*стрелочка перед каждой ссылкой*/ 
+   /* li::after */
+   /* box-sizing: border-box; */
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    font-size: 28px;
+  }
+  
+  section.template div.symbol.small {
+    margin: 24px 0;
+    font-weight: 700;
+    font-size: 84px;
+    font-size: 5.25rem;
+  }
+ 
+li::before {
+    margin-right: 10px;
+    content: "\27AB"; /*Наклонённая вниз объёмная стрелка*/
+  }
+  
+  /* li::after {
+    margin-left: 10px;
+    content: " ";  /*Наклонённая вниз объёмная стрелка
+  } */
+  
+  .list li:hover a { /* Цвет для шрифта при наведении на него мышкой*/
+    color: #ff4081;
+  }
+  
+  .list li:hover::before /* Цвет для стрелки при наведении на шрифт мышкой*/
+ /* .list li:hover::after  */
+  { 
+    color: #03a9f4;
+  } 
+  

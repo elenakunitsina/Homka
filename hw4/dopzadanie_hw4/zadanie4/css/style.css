@@ -1,0 +1,48 @@
+/* Задание 4
+Создать список из 5-ти элементов. Используя CSS счетчики и псевдоэлемент before для li,
+пронумеровать элементы списка римскими цифрами, CSS оформление на свой вкус. Псевдоэлемент
+должен быть квадратом с вертикально и горизонтально центрированым текстом. */
+
+* {
+  margin: 0;
+  padding: 500;
+}
+
+/* body {
+  /* объявляем несколько счетчиков, задав
+  переменные с произвольными именами 
+  count-box, count-block и headline, 
+  count-block  
+  counter-reset: count-box
+                 count-block
+                 headline;
+} */
+
+.box {
+  width: 270px;
+  margin: auto;
+  background-color: rgb(94, 64, 224);
+  padding: 5px 5px 3px 5px;
+  counter-increment: count-box;
+}
+
+.list {
+  background: rgb(247, 125, 26);
+  font-size: 35px;
+  text-align: left;
+}
+
+li {
+  font-size: 25px;
+  /* горизонтальное выравнивание текста  */
+  text-align: center;
+  /* горизонтальное выравнивание текста  */
+  margin: 2px;
+  background: #7E9F35;
+  width: 160px;
+  height: 30px;
+  font-family: sans-serif;
+  list-style-type: upper-roman; /* Заглавные римские числа */
+  }
+
+  

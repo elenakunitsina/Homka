@@ -1,0 +1,52 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.menulist {
+    max-width: 960px;
+    margin: auto;
+    height: 100px;
+    line-height: 100px;
+    /* border-bottom: 3px solid #212121;  */
+   }
+
+.site-navigation {
+    margin: auto;
+    font-family: Roboto, serif; 
+    list-style: none;
+    }
+
+.site-navigation li {
+    float: left;
+}
+/* Для создания горизонтального меню использовать float. */
+
+.site-navigation a {
+    display: block;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #212121;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* С помощью псевдокласса hover задать стили элементам меню при наведении курсора.  */
+  .site-navigation a:hover {
+  /* Сработает при hover */
+    color: #03a9f4;
+  }
+
+  /* Сработает при удержании кнопки мыши на ссылке */
+.site-navigation a:focus {
+    color: #c4f345;
+  }
+  
+  .clearfix {
+    display: table;
+    content: "";
+    clear: both;
+  } 
+  
