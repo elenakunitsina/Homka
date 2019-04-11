@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <title>Модуль 5 - Домашнее задание - Позиционирование элементов</title>
+  </head>
+  <body>
+    <!-- MENU -->
+    <div class="mein">
+      <!-- wrapper -->
+      <header class="navigation clearfix">
+        <div class="logo">
+          <span id="logo_green">M</span><span id="logo_black">ART</span>
+        </div>
+        <!-- <div class="logo">
+	          <img src="./images/logo.png" alt="lofo" width="80" height="24" />
+	        </div> -->
+        <div class="nav_bar clearfix">
+          <ul class="nav">
+            <li><a class="nav_link" href="#">home</a></li>
+            <li><a class="nav_link" href="#">about us</a></li>
+            <li><a class="nav_link" href="#">page</a></li>
+            <li><a class="nav_link" href="#">shop</a></li>
+            <li><a class="nav_link" href="#">blog</a></li>
+            <li><a class="nav_link" href="#">contact us</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="slider-wrp">
+        <div class="slider-img-wrp">
+          <img
+            class="slider-img"
+            src="./img/slide4.jpg"
+            alt="slider"
+            width="100%"
+            height="600"
+          />
+        </div>
+        <div class="slider content-wrp">
+          <button class="slider-btn slider-btn-r">
+            <span class="arrow-btn-r"
+              ><img src="./icons/buttom/right.png" alt=""
+            /></span>
+          </button>
+          <button class="slider-btn slider-btn-l">
+            <span class="arrow-btn-l">
+              <img src="./icons/buttom/left.png" alt=""
+            /></span>
+          </button>
+          <div class="slider-text">
+            <h3 class="slider-title">AFFORDABLE PARIS TOURS</h3>
+            <h4 class="slider-subtitle">
+              CITY TOURS / TOUR TICKETS / TOUR GUIDES
+            </h4>
+          </div>
+        </div>
+      </div>
+      <section class="shop-wrp">
+        <div class="shop-content">
+          <h2 class="shop-title">NEW COLLECTION</h2>
+          <div class="card-wrp">
+            <ul class="cards-list clearfix">
+              <li class="cards">
+                <div class="card-img">
+                  <img src="./images/card1.png" alt="blue-tshirt" />
+                </div>
+                <div class="hover-shadow"></div>
+                <div class="hover-btn-wrp ">
+                  <button class="hover-btn btn-like">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/like.png" alt="like" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-send">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/send.png" alt="send" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-clock">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/clock.png"
+                        alt="clock"
+                      />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-basket">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/basket.png"
+                        alt="basket"
+                      />
+                    </div>
+                    <p class="text-btn-basket">add to card</p>
+                  </button>
+                </div>
+                <div class="card_product clearfix">
+                  <span class="desc">blue tshirt</span>
+                  <span class="price">$26</span>
+                </div>
+              </li>
+              <li class="cards">
+                <div class="card-img">
+                  <img src="./images/card2.png" alt="woman-shirt" />
+                </div>
+                <div class="hover-shadow"></div>
+                <div class="hover-btn-wrp">
+                  <button class="hover-btn btn-like">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/like.png" alt="like" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-send">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/send.png" alt="send" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-clock">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/clock.png"
+                        alt="clock"
+                      />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-basket">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/basket.png"
+                        alt="basket"
+                      />
+                    </div>
+                    <p class="text-btn-basket">add to card</p>
+                  </button>
+                </div>
+                <div class="card_product clearfix">
+                  <span class="desc">woman shirt</span>
+                  <span class="price">$31</span>
+                </div>
+              </li>
+              <li class="cards">
+                <div class="card-img">
+                  <img src="./images/card3.png" alt="yellow-tshirt" />
+                </div>
+                <div class="hover-shadow"></div>
+                <div class="hover-btn-wrp">
+                  <button class="hover-btn btn-like">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/like.png" alt="like" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-send">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/send.png" alt="send" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-clock">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/clock.png"
+                        alt="clock"
+                      />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-basket">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/basket.png"
+                        alt="basket"
+                      />
+                    </div>
+                    <p class="text-btn-basket">add to card</p>
+                  </button>
+                </div>
+                <div class="card_product clearfix">
+                  <span class="desc">YELLOW Tshirt</span>
+                  <span class="price">$21</span>
+                </div>
+              </li>
+              <li class="cards">
+                <div class="card-img">
+                  <img src="./images/card4.png" alt="cool-lingerie" />
+                </div>
+                <div class="hover-shadow"></div>
+                <div class="hover-btn-wrp">
+                  <button class="hover-btn btn-like">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/like.png" alt="like" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-send">
+                    <div class="card-icon">
+                      <img class="icon-img" src="./icons/send.png" alt="send" />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-clock">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/clock.png"
+                        alt="clock"
+                      />
+                    </div>
+                  </button>
+                  <button class="hover-btn btn-basket">
+                    <div class="card-icon">
+                      <img
+                        class="icon-img"
+                        src="./icons/basket.png"
+                        alt="basket"
+                      />
+                    </div>
+                    <p class="text-btn-basket">add to card</p>
+                  </button>
+                </div>
+                <div class="card_product clearfix">
+                  <span class="desc">cool lingerie</span>
+                  <span class="price">$56</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p class="footer-text">
+        All Rights Reserved © Dokan | Designed
+        <span class="f-green-text">ThemenGraph</span>
+      </p>
+    </footer>
+  </body>
+</html>
