@@ -1,140 +1,96 @@
-/*html {
-    box-sizing: border-box;
-}*/
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
-    width: 900px; 
-    margin: auto;
-    background-color: white;
-    padding-top: 32px;
-    
+  width: 900px;
+  margin: auto;
+  background-color: white;
+  padding-top: 32px;
 }
 
- .list {
-    list-style: none;
-    text-align: center;
-    width: 900;
-    display: flex;
-    justify-content: space-between;
- }
+.list {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin-left: 150px;
+}
 
- .list-item {
-     display: inline-block;
- }
+.list-item {
+  display: inline-block;
+}
 
- .list-link {
-    display: block;
-    width: 150px ;
-    /*background-color: #555;
-    padding 0 15px;*/
-    color: #555555; 
-    font-size: 18px;
-    margin-bottom: 110px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
-    float: right;
- }
+.list-link {
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", sans-serif;
+  color: #555555;
+  font-size: 18px;
+  margin-bottom: 110px;
+}
 
- .list-link:hover {
-color: blue;
- }
+.list-link:hover {
+  color: blue;
+}
 
- .card {
-     display: inline-block;
-     width: 46%;
-   /*  width: calc(50%-30px);
-   margin-bottom: 20px;*/
- }
+.card {
+  font-size: 16px;
+  display: inline-block;
+  width: calc(49% - 30px);
+}
 
- .card-mr {
-     margin-right: 60px;
- }
+.card-mr {
+  margin-right: 60px;
+}
 
 .card-subtitle {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    line-height: 2.0;
-    color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  color: gray;
 }
 
 .text-light {
-    color: lightgray;
+  color: lightgray;
 }
 
 .card-title {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 2.8;
-    color: gray;
-    text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  line-height: 2.8;
+  color: gray;
+  text-align: left;
 }
 
 .card-description {
-    margin-bottom: 160px;
+  margin-bottom: 120px;
 }
 
 .text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
-    color: gray;
-    text-align: justify;
-    
+  font-family: Roboto, serif;
+  line-height: 1.6;
+  color: gray;
+  text-align: justify;
 }
 
- .load-btn {
-    width: 20%;
-    margin-bottom: 60px;
-    margin: auto;
-    text-align: center;
-    font-family: serif;
-  
-    /*width: 20%;
-    height: 30px;
-    font-family: serif;
-    float: left;
-    margin-bottom: 100px;
-    font-size: 18px;
-    background: white;
-    color: gray; */
-    
+.load_button {
+  width: 900px;
+  text-align: center;
 }
 
-/*button {
-    cursor: pointer;
-    min-width: 200px;
-    padding: 15px 5px;
-    text-transform: uppercase;
-    vertical-align: middle;
-    background: white;
-    border: none;
-    color:gray;
-    font-weight: 600;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(56,100,38);
-    transition: all 1s;
-  }
-  
-  button:hover {
-    box-shadow: 0 0 25px rgb(56,100,38);
-  }
-  
-  button:focus {
-    outline: none;
-  }*/
-  
-  /*button {
-    display: inline-block;
-    width: 150px;
-    margin: auto;
-}*/
-
-footer {
-    text-align: center;
-    margin-bottom: 100px;
-    }
+button {
+  display: inline-block;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: solid 1px;
+  background: white;
+  font-size: 22px;
+  margin-bottom: 160px;
+}
