@@ -37,10 +37,11 @@
   color: blue;
 }
 
-.card {
-  font-size: 16px;
+.card  {
+  font-size: 16px; 
   display: inline-block;
-  width: calc(49% - 30px);
+  vertical-align: top;
+  width: calc(48% - 30px);
 }
 
 .card-mr {
@@ -68,7 +69,7 @@
 }
 
 .card-description {
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 
 .text {
