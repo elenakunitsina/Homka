@@ -70,7 +70,7 @@
 .product li {
   float: left;
   list-style: none;
-  background-color: rgb(233, 240, 253);
+  /* background-color: rgb(233, 240, 253); */
   height: 325px;
   margin-right: 30px;
   margin-bottom: 30px;
