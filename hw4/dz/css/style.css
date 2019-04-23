@@ -38,6 +38,15 @@
   color: rgb(40, 207, 174);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: solid 1px white;
+  overflow: hidden;
+}
+
+
 .nav_bar {
   float: right;
 }
@@ -66,17 +75,11 @@
 }
 
 .products {
-  width: 255px;
-  height: 282px;
+  /* width: 255px; */
+  height: 252px;
   overflow: hidden;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  /* height: auto; */
-  border: solid 1px white;
-}
 
 .product li {
   float: left;
