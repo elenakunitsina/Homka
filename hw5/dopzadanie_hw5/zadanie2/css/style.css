@@ -1,35 +1,17 @@
-* {
-    box-sizing: border-box;
+#main_square {
+  width:400px;
+  height:400px;
+  background-color:Gray;
+  border:1px solid #000000;
+  padding:0;
+  margin:0 auto
   }
-  
-  /* This technique doesn't naturally cause horizontal overflow, but once there is natural vertical overflow, it causes horizontal overflow, so stopping here. */
-  body {
-    overflow-x: hidden;
-  }
-  
-  img { 
-    max-width: 100%; 
-  }
-  
-  main {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .full-width {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-  }
-  
-  p, figure {
-    margin: 15px 0;
-  }
-  figcaption {
-    text-align: center;
-    color: #999;
-  }
+  .square1 {border:1px solid #000000; background-color:rgb(14, 110, 148); color:#000000; width:100px; height:100px}
+  .square2 {border:1px solid #000000; background-color:rgb(9, 110, 68); color:#000000; width:100px; height:100px; position:relative; left:150px; bottom:102px}
+  .square3 {border:1px solid #000000; background-color:rgb(182, 11, 91); color:#000000; width:100px; height:100px; position:relative; left:298px; bottom:204px}
+  .square4 {border:1px solid #000000; background-color:rgb(212, 12, 22); color:#000000; width:100px; height:100px} 
+  .square5 {border:1px solid #000000; background-color:rgb(216, 92, 20); color:#000000; width:100px; height:100px; position:relative; left:150px; bottom:102px}
+  .square6 {border:1px solid #000000; background-color:rgb(182, 11, 91); color:#000000; width:100px; height:100px; position:relative; left:298px; bottom:204px}
+  .square7 {border:1px solid #000000; background-color:green; color:#000000; width:100px; height:100px; position:relative; top:254px}
+  .square9 {border:1px solid #000000; background-color:DeepSkyBlue; color:#000000; width:100px; height:100px; position:relative; left:418px; top:172px}
+  img {position:relative; left:209px; bottom:120px}
